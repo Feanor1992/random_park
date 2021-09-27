@@ -6,3 +6,6 @@ while True:
     print()
     print(parks[park_choice])
 
+    if len(parks) == 6:
+        print('программа сделал свой выбор')
+        break
